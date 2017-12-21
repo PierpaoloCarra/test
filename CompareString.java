@@ -17,7 +17,7 @@ public class CompareString{
 		return result = a.equals(b);
 	}
 	public static void main(String[] args){
-		CompareString compStr = new CompareString("IT95E0310401625000000121067","IT95E0310401625000000121067");
+		CompareString compStr = new CompareString("IT95E0560401625000000921067","IT95E0560401625000000921067");
 		boolean res = compStr.checkEquals(compStr.a, compStr.b);
 
 		if(res){
